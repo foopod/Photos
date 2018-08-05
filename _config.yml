@@ -14,7 +14,7 @@ author:
   name:           'Jono Shields'
   url:            https://twitter.com/matapihi
 
-paginate:         100
+paginate:         10
 
 gems:
   - jekyll-paginate
