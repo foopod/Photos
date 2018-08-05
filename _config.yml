@@ -4,21 +4,21 @@
 permalink:        pretty
 
 # Setup
-title:            Matapihi
-tagline:          'A window'
-description:      'A window'
-url:              http://foopod.github.io/matapihi
-baseurl:          /matapihi/
+title:            Jono & Film
+tagline:          'Jono does Film'
+description:      'Jono does Film'
+url:              http://foopod.github.io/photos
+baseurl:          /
 
 author:
-  name:           'Matapihi'
+  name:           'Jono Shields'
   url:            https://twitter.com/matapihi
 
-paginate:         5
+paginate:         100
 
 gems:
   - jekyll-paginate
   - jekyll-gist
   
 # Custom
-instagram : matapihi
+instagram : jono_learns_film
