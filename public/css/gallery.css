@@ -15,7 +15,7 @@
     display: block;
     max-width: 98%;
     margin: auto;
-    margin-top: 8px;
+    margin-bottom: 8px;
   }
 
  .wide-container {
@@ -51,4 +51,35 @@
 
 .sidebar-about h1 {
     font-size: 2.5rem;
+}
+
+#lightbox{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top:0;
+  left:0;
+  background-color:white;
+  z-index:10;
+  display:none;
+}
+
+#lightbox img{
+    max-height: 98%;  
+    max-width: 98%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+#closeButton{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index:20;
 }
